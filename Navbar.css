@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #333; /* Dark background */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.navbar .nav-brand {
+  font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+  display: flex;
+  align-items: center; /* Ensure vertical alignment */
+}
+
+.navbar .nav-links a, .navbar .nav-links button {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  background: none; /* For the button */
+  border: none; /* For the button */
+  cursor: pointer; /* For the button */
+  transition: color 0.3s;
+}
+
+.navbar .nav-links a:hover, .navbar .nav-links button:hover {
+  color: #ddd; /* Lighter color on hover */
+}
+
+.navbar .welcome-message {
+  margin-right: 20px; /* Space before the logout button */
+  font-style: italic;
+}

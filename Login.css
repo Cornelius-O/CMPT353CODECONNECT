@@ -1,0 +1,59 @@
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Login Card */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* Form Group */
+.login-card .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Input Field */
+.login-card .form-control {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+}
+
+/* Label */
+.login-card .form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+
+/* Button */
+.login-card .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: white;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+
+.login-card .forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .login-card {
+      padding: 15px;
+  }
+}

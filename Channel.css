@@ -1,0 +1,159 @@
+/* Body styling */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Header styling */
+h3 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+}
+
+/* Channel container styling */
+.channel-container {
+  display: flex;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 25%;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.channel-list li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+  transition: background-color 0.3s;
+}
+
+.channel-list li:hover {
+  background-color: #555;
+}
+
+/* Messages container styling (on the right) */
+.main-content {
+  flex: 1; /* Fill the remaining space in the container */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Message styling */
+.message {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Message info styling */
+.message-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.username {
+  font-weight: bold;
+  color: #333;
+  font-size: 18px;
+}
+
+.timestamp {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Message content styling */
+.message-content {
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Button styling */
+button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Search input styling */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* File input styling */
+input[type="file"] {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+/* Reply styling */
+.reply {
+  border: 1px solid #ddd;
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Reply info styling */
+.reply-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.reply-username {
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+}
+
+.reply-timestamp {
+  font-size: 12px;
+  color: #777;
+}
+
+/* Reply content styling */
+.reply-content {
+  word-wrap: break-word;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Reply image styling */
+.reply-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
